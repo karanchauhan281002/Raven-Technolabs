@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+*
+/*.image-who-we-are
+{
+     border: 10px solid red; 
+    width: 100%;
+    height: 100%;
+}*/
+.image-who-we-are
+{
+ 
+ margin-top: 50px;
+   
+     
+     height: 900px
+}
+.image__img-who-we-are
+{
+    display: block ;
+    width: 100% ;
+    height: 100%;
+}
+.image__overlay-who-we-are
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 13, 14, 0.863);
+    color: rgb(255, 255, 255);
+    font-family: 'Hind', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    opacity: .76;
+    transition:opacity 0.25s;
+}
+/* .image__overlay:hover
+{
+  opacity: 1;
+} */
+.set-who-we-are
+{
+   position: relative;
+   top: 23%;
+   left:150px
+}
+.image__overlay-who-we-are>*
+{
+   transform: translateY(20px);
+   transition: transform  0.25s;
+}
+.image__overlay-who-we-are:hover>*
+{
+   transform: translateY(0);
+}
+.image__title-who-we-are
+{
+    font-size: 3.22rem;
+    font-weight: bold;
+    margin-top: 0.9rem;
+
+}
+
+.image__description-who-we-are
+{
+    width:680px;
+    height: 200px;
+}
+.image__description-who-we-are-p-1
+{
+    font-size: 1.55rem;
+    margin-top: 1.45rem;
+    padding-right: 45px;
+
+}
+.headlinewhoweare
+{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 4px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-top: .78rem ;
+    margin-bottom: .78rem;
+}
+.who-we-are-b-para
+{
+   font-size: 1.45rem;
+}
+   
+@media(max-width:990px)
+{
+    .image__title-who-we-are
+    {
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    .image__img-who-we-are
+    {
+        width: 100%;
+        height: 800px;
+    }
+    .image-who-we-are
+    {
+        width: auto;
+        height: 100%;
+    }
+    .image__overlay-who-we-are
+    {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .image__description-who-we-are-p-1
+    {
+        padding:1.2rem;
+        font-size: 1.1rem;
+        text-align: center; 
+    }
+    .image__description-who-we-are 
+    {
+        width: auto;
+        padding:0 ;
+    }
+    .set-who-we-are
+    {
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+ 
+}

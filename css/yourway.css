@@ -1,0 +1,60 @@
+.div0{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+.box{
+    width: 20%;
+    height: 120px;
+    margin: 18px;
+    background-color: white;
+    box-sizing: border-box;
+    font-size: 25px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    border-radius: 25px; 
+    flex-direction:row;
+    justify-content: space-around;
+    flex-flow:wrap;
+
+}
+.text header{
+    font-size: 25px;   
+}
+.text2 {
+    font-size: large;
+}
+.nacho{
+    border-radius: 5px;
+    border:white;
+    width: 260px;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+.button {
+    border: none;
+    border-radius: 25px;
+    height: 100px;
+    width: 240px;
+    background-color: white;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+@media screen and (max-width:1200px){
+.box{
+    width: 40%;  
+}
+}
+@media screen and (max-width:749px){
+    .box{
+        width: 90%;  
+    }
+    }
+

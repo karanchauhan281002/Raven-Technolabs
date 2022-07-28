@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ///////////////////////////////////////////////////////////// 0*/
+.headlinewhatwedo
+{
+    background-color: black;
+    width: 150px;
+    height: 4px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 14px;
+    
+}
+.headlinewhatwedo-1
+{
+    background-color: white;
+    width: 100px;
+    height: 4px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin: auto;
+    
+}
+.what-we-do
+{
+    margin:  0 0 90px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.what-we-do-desc
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+.what-we-do-header
+{
+    padding: 20px 0 ;
+    font-size: 2.45rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* ///////////////////////////////////////////////////////////// 0*/
+.presence-container{
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.presence-container .presence-card{
+    width: 380px;
+    padding: 20px;
+    background: black;
+    text-align: center;
+    margin: 0 15px 15px 0;
+    border-radius: 10px;
+    margin: 23px 0;
+}
+
+.presence-container .presence-card {
+    color: #fff;
+}
+.presence-title
+{
+    margin: 20px 0;
+    font-size: 1.56rem;
+}
+.presence-para
+{
+    color: white;
+    font-size: 23px;
+
+}
+.presence-container .presence-card .presence-para{
+    margin: 40px 0;
+}
+
+.presence-container .presence-card .testimonail-image{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+}
+
+@media (max-width:660px){
+    .presence-container .presence-card{
+        margin: 0 0 15px 0;
+    }
+    .what-we-do-para{
+        padding: 20px 23px;
+    }
+}
