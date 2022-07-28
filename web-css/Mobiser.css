@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mobileser{
+ margin-top: 300px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.mobile-ser-header-1
+{
+    font-size:2.2rem;
+    padding: 43px 23px;
+    font-family: 'Hind', sans-serif;
+}
+.mobile-ser-desc
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mobile-ser-desc-para
+{
+    margin: 20px 23px;
+    text-align: center ;
+    font-family: 'Hind', sans-serif;
+    font-size:1.5rem;
+
+}
+ .mobile-ser-desc-1
+{
+    width: 800px;
+    margin: 20px 10px;
+} 
+.mobile-ser-desc-image
+{
+    margin: 23px 0px;
+    /* background-color: crimson; */
+    /* border: 10px solid green; */
+    width: auto;
+    height: auto;
+}
+.mobile-ser-image
+{
+    width: 450px;
+    height: auto;
+}
+.mobile-ser-desc-2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mobile-ser-box
+{
+    /* background-color: white; */
+    box-shadow: 10px 10px 10px rgba(138, 130, 130, 0.716);
+    /* border: 10px solid red; */
+    border-radius: 10px;
+    margin: 5px 0;
+    margin: 0 6px;
+    width: 360px;
+    padding: 32px;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mobile-ser-box-para
+{
+    font-family: 'Hind', sans-serif;
+    font-size:1.1rem;
+}
+@media(max-width:1250px)
+{
+    .mobileser
+    {
+        height: auto;
+    }
+    .mobile-ser-desc
+     {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 23px;
+     }
+     .mobile-ser-desc-1
+     {
+        width: auto;
+      height: auto;
+     }
+     .mobile-ser-desc-2
+     {
+        width: 100%;
+      height: auto;
+     }
+     .mobile-ser-image
+     {
+         width:100%;
+         height: auto;
+     }
+     .mobile-ser-header-1{
+        text-align: center;
+     }
+
+     .mobile-ser-box
+     {
+        width: 100%;
+        height: auto; 
+     }
+     .mobile-ser-box-para
+     {
+        width: 100%;
+        height: auto;
+     }
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont-j-1
+{
+    width:100% ;
+    height: auto;
+    background-color:white;
+}
+.cont-j-2
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-4-j
+{
+    text-align: center;
+    padding-top: 4px ;
+    font-family: 'Hind', sans-serif;
+    padding-bottom: 18px;
+}
+.header-1-j
+{
+    text-align: center;
+    padding-top: 13.3px ;
+    padding-bottom: 36px;
+    font-family: 'Hind', sans-serif;
+}
+.para-1-j
+{
+    text-align: center;
+    padding-top: 30px ;
+    padding-bottom: 18px;
+    font-family: 'Hind', sans-serif;
+}
+.boxsj
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 12px 123px;
+    justify-content: center;
+}
+.box-j
+{
+    width: 413px;
+    background-color: white;
+    height: 374px;
+    /* border: 10px solid black; */
+    color: black;
+    font-family: 'Hind', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgj-1 {
+    padding: 27px 6px;
+    width: 154px;
+    height: auto;
+    border-radius: 50%;
+    filter: drop-shadow(2px 3px 5px rgb(143, 138, 138));
+}
+.desc-j-1
+{
+    padding: 29px 79px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.boxjd-1
+{
+    padding :15px 23px;
+    color: black;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+
+}
+.headlinejl
+{
+    background-color: #000;
+    width: 110px;
+    height: 4px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+  
+}
+.box-heading-1
+{
+  padding-top: 14px ;
+  padding-bottom: 2px;
+  color: black;
+}
+@media(max-width:700px)
+{
+
+   .box-j {
+        width: 293px;
+        background-color: white;
+        height: 374px;
+        /* border: 10px solid black; */
+        color: black;
+        font-family: 'Hind', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .desc-j-1 {
+        padding:  14px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.headlinewhatwedo
+{
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 4px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin: auto;
+    
+}
+.what-we-do
+{
+    margin:  90px 0 90px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.what-we-desc
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.what-we-do-para
+{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 32px 200px ;
+}
+.what-we-do-header
+{
+    padding: 20px 0 ;
+    font-size: 2.45rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.what-img
+{
+    width:1200px;
+    border-radius: 120px 60px ;
+    height: auto;
+}
+.what-we-do-img{
+    height: auto;
+    width: auto;
+}
+@media(max-width:835px){
+    .what-img
+    {
+        width:100%;
+        height: auto;
+    }
+    .what-we-do-para
+    {
+        padding:23px ;
+    }
+    
+}
